@@ -1,3 +1,6 @@
+/*
+REGRAS GLOBAIS HEADER
+*/
 .interface {
   max-width: 1280px;
   margin: 0 auto;
@@ -8,34 +11,69 @@ header {
 }
 
 header > .interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*
 MENU EM LISTA 
 */
-header a{
-    color: #fff;
-    text-decoration: none;
+header a {
+  color: #7d7d7d;
+  text-decoration: none;
+  /*
+  ADICIONA BLOCK-LEVEL
+  +
+  WIDTH E HEIGHT
+  */
+  display: inline-block;
 }
 
-header nav ul{
-    list-style-type: none;
+/*
+ANIMAÇÃO AO PASSAR O MOUSE SOBRE O LINK
+*/
+header a:hover {
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.4s;
 }
 
-header nav ul li{
-    display: inline-block;
-    padding: 0 40px;
+/*
+RETIRA O ESTILO DE LISTA GLOBAL NO HEADER
+*/
+header nav ul {
+  list-style-type: none;
 }
 
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: rgb(255, 166, 0);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+/*
+DISTRIBUI OS LINKS NA HORIZONTAL
++
+ESPAÇAMENTO VERTICAL ZERADO
+*/
+header nav ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+/*
+BOTÃO DE CONTATO
+*/
+header .btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(255, 166, 0);
+  /*
+  TIRA A BORDA DO BOTÃO
+  */
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+header .btn-contato button:hover{
+  box-shadow: 0px 0px 8px rgb(255, 166, 0);
+  background-color: transparent;
+  color: #fff;
 }
