@@ -16,6 +16,17 @@ header > .interface {
   justify-content: space-between;
 }
 
+#front_p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -1.5px;
+}
+
+#front_p span {
+  color: rgb(255, 213, 0);
+}
+
 /*
 MENU EM LISTA 
 */
@@ -54,26 +65,4 @@ ESPAÇAMENTO VERTICAL ZERADO
 header nav ul li {
   display: inline-block;
   padding: 0 40px;
-}
-
-/*
-BOTÃO DE CONTATO
-*/
-header .btn-contato button {
-  padding: 10px 40px;
-  font-size: 18px;
-  font-weight: 600;
-  background-color: rgb(255, 166, 0);
-  /*
-  TIRA A BORDA DO BOTÃO
-  */
-  border: 0;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
-header .btn-contato button:hover{
-  box-shadow: 0px 0px 8px rgb(255, 166, 0);
-  background-color: transparent;
-  color: #fff;
 }

@@ -1,0 +1,57 @@
+section.home {
+  padding: 40px 4%;
+  color: #fff;
+}
+
+/*
+CONTAINER DO CALL TO ACTION
+*/
+.flex {
+  display: flex;
+}
+
+section.home .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+/*
+TÍTULO CALL TO ACTION
+*/
+.home .txt-home h1 {
+  color: #fff;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.home .txt-home h1 span {
+  color: rgb(255, 213, 0);
+  font-family: "JetBrains Mono";
+}
+
+.home .txt-home p {
+  /*ESPAÇAMENTO DO TEXTO*/
+  margin: 30px 0;
+  letter-spacing: 1.2px;
+}
+
+/*
+BOTÃO CALL TO ACTION
+*/
+
+.home .img-home img {
+  position: relative;
+  border-radius: 40px;
+  animation: flutuar 2s ease-in-out infinite alternate; 
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 30px;
+  }
+}
