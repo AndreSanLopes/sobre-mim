@@ -1,11 +1,3 @@
-/*
-REGRAS GLOBAIS HEADER
-*/
-.interface {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 header {
   padding: 40px 4%;
 }

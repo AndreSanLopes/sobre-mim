@@ -13,6 +13,7 @@ IMPORTAÇÃO DE ARQUIVOS CSS
 */
 @import url("header.css");
 @import url("main.css");
+@import url(especialidades.css);
 
 /*
 DEFINIÇÕES GLOBAIS
@@ -47,7 +48,7 @@ BOTÃO DE CONTATO
   border: 0;
   border-radius: 30px;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .btn-contato button:hover {
@@ -55,4 +56,13 @@ BOTÃO DE CONTATO
   background-color: transparent;
   color: #fff;
   transform: scale(1.05);
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
 }

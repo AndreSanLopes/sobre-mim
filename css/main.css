@@ -3,13 +3,6 @@ section.home {
   color: #fff;
 }
 
-/*
-CONTAINER DO CALL TO ACTION
-*/
-.flex {
-  display: flex;
-}
-
 section.home .flex {
   align-items: center;
   justify-content: center;
