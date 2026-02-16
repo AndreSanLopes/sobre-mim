@@ -18,6 +18,26 @@ TÍTULO CALL TO ACTION
   line-height: 44px;
 }
 
+/*
+CORPO PRINCIPAL: MAIN
+*/
+.txt-home{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  word-wrap: break-word;
+}
+
+/*
+SEÇÃO DE BOTÕES
+*/
+.btn-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
 .home .txt-home h1 span {
   color: rgb(255, 213, 0);
   font-family: "JetBrains Mono";
@@ -36,7 +56,7 @@ BOTÃO CALL TO ACTION
 .home .img-home img {
   position: relative;
   border-radius: 40px;
-  animation: flutuar 2s ease-in-out infinite alternate; 
+  animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {

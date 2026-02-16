@@ -1,3 +1,7 @@
 .especialidades .interface{
     color: #fff;
 }
+
+section.especialidades{
+    padding: 40px 4%;
+}
