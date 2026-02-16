@@ -44,6 +44,20 @@ body {
 }
 
 /*
+TÍTULOS
+*/
+
+h2.titleBase{
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
+
+h2.titleBase span{
+  color: rgb(255, 213, 0);
+}
+
+/*
 BOTÃO DE CONTATO
 */
 .btn-contato button {
