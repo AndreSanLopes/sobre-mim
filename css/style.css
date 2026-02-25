@@ -13,7 +13,8 @@ IMPORTAÇÃO DE ARQUIVOS CSS
 */
 @import url("header.css");
 @import url("main.css");
-@import url(especialidades.css);
+@import url("especialidades.css");
+@import url("sobre.css");
 
 /*
 DEFINIÇÕES GLOBAIS

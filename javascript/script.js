@@ -10,7 +10,6 @@ function icon(event) {
   }
 }
 
-
 /*alterar a cor dos ícones de especialidades*/
 function espIcon(event) {
   let espAtual = event.currentTarget.querySelector("i");
@@ -38,12 +37,24 @@ window.onload = function () {
   let especialidades = document.querySelectorAll(".especialidades-box");
 
   especialidades.forEach((esp) => {
-    esp.onmouseenter = (espIcon);
-    esp.onmouseleave = function (event){
+    esp.onmouseenter = espIcon;
+    esp.onmouseleave = function (event) {
       event.currentTarget.querySelector("i").style.color = "rgb(255, 213, 0)";
-    }
+    };
   });
 };
 
 /*-----------------------------------------------*/
+/*SCROLL REVEAL - ANIMAÇÕES*/
+//SEÇÃO SOBRE
+ScrollReveal().reveal(".txt-sobre", {
+  origin: "left",
+  duration: 2000,
+  distance: "10%",
+});
 
+ScrollReveal().reveal("#titleCall", {
+  origin: "left",
+  duration: 2000,
+  distance: "20%",
+});

@@ -29,7 +29,9 @@
       crossorigin="anonymous"
     ></script>
     <!--CSS GERAL-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--SCROLL REVEAL - BIBLIOTECA DE ANIMAÇÕES-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>André Lopes</title>
     <!--
     ÍCONE DO SITE
@@ -41,7 +43,7 @@
       <!--DIV-PAI-->
       <div class="interface">
         <div class="logo">
-          <a href="#">
+          <a href="https://github.com/AndreSanLopes">
             <p id="front_p"><span>André</span> Lopes</p>
           </a>
         </div>
@@ -51,16 +53,16 @@
         <nav class="menu-desktop">
           <ul>
             <li>
-              <a href="#">Início</a>
+              <a href="/index.html">Início</a>
             </li>
             <li>
-              <a href="#">Especialidades</a>
+              <a href="#features">Especialidades</a>
             </li>
             <li>
-              <a href="#">Sobre</a>
+              <a href="#about">Sobre</a>
             </li>
             <li>
-              <a href="#">Projetos</a>
+              <a href="#work">Projetos</a>
             </li>
           </ul>
         </nav>
@@ -89,7 +91,7 @@
             TEXTO DO CALL TO ACTION
             -->
             <div class="txt-home">
-              <h1>
+              <h1 id="titleCall">
                 Materialize suas ideias no campo digital, o
                 <span>código do seu negócio</span> é aqui.
               </h1>
@@ -147,7 +149,7 @@
         </div>
       </section>
 
-      <section class="especialidades">
+      <section class="especialidades" id="features">
         <div class="interface">
           <h2 class="titleBase">Minhas <span>Especialidades</span></h2>
           <div class="flex">
@@ -194,7 +196,7 @@
       </section>
 
       <!--SEÇÃO SOBRE-->
-      <section class="sobre">
+      <section class="sobre" id="about">
         <div class="interface">
           <div class="flex">
             <!--imagem de perfil para seção sobre-->
@@ -203,7 +205,33 @@
             </div>
 
             <div class="txt-sobre">
-              <h2>Olá! Me chamo <span>André Lopes</span>.</h2>
+              <h2>
+                Prazer, sou André Lopes e trarei sua
+                <span>presença digital</span>.
+              </h2>
+              <p>
+                Minha trajetória na área de desenvolvimento se iniciou ainda no
+                ensino médio, ao ingressar na ETEC, onde tive meu primeiro
+                contato com lógica de programação, redes, arquitetura de
+                computadores e administração sistemas operacionais.
+              </p>
+              <p>
+                Sempre fui um entusiasta no ramo, procurando entender o cerne da
+                computação com minhas pesquisas e projetos pessoais. Após me
+                profissionalizar, busco entregar excelência e eficiência,
+                acompanhando as tendências do mercado.
+              </p>
+              <div class="btn-github">
+                <a
+                  href="mailto:andresanlopes@gmail.com?subject=André%20%Lopes%20-%20Interesse%20de%20Contato&body=Olá!"
+                  id="btn-mail"
+                >
+                  <i
+                    class="fa-solid fa-envelope"
+                    style="color: rgb(0, 0, 0)"
+                  ></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
