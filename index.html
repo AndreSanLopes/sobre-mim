@@ -67,6 +67,9 @@
 
         <!--
         BOTÃO PARA CONTATO
+        
+
+        INSERIR ÍCONE
         -->
         <div class="btn-contato">
           <a href="#">
@@ -110,22 +113,25 @@
                 <!--
                 BOTÃO GITHUB
                 -->
-                <div class="btn-github">
+                <div class="btn-github" onmouseenter="icon(event)">
                   <a href="https://github.com/AndreSanLopes">
                     <i
                       class="fa-brands fa-github"
-                      style="color: rgba(0, 0, 0, 1)"
+                      style="color: rgb(0, 0, 0)"
                     ></i>
                   </a>
                 </div>
                 <!--
                 BOTÃO LINKEDIN
                 -->
-                <div class="btn-github">
+                <div class="btn-github" onmouseenter="icon(event)">
                   <a
                     href="https://www.linkedin.com/in/andreslopesdev/?skipRedirect=true"
                   >
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i
+                      class="fa-brands fa-linkedin-in"
+                      style="color: rgb(0, 0, 0)"
+                    ></i>
                   </a>
                 </div>
               </div>
@@ -135,7 +141,7 @@
             IMAGEM DO CALL TO ACTION
             -->
             <div class="img-home">
-              <img src="assets/perfil01 Edited.jpg" alt="" />
+              <img src="assets/laptop_code_edit.png" alt="" />
             </div>
           </div>
         </div>
@@ -147,25 +153,27 @@
           <div class="flex">
             <!--SEÇÃO DE LANDING PAGE-->
             <div class="especialidades-box">
-              <i class="bi bi-code-square"></i>
+              <i
+                class="bi bi-code-square"
+                style="color: rgb(255, 213, 0)"
+                onmouseenter="espIcon(event)"
+              ></i>
               <h3>Landing Pages</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-                veniam magnam odio voluptates ipsum nostrum voluptatibus ipsa
-                voluptatem, doloremque, impedit eveniet obcaecati? Ad fugit quia
-                itaque doloremque, at ratione illo.
+                Páginas inteligentes, com foco em captação de leads, marketing e
+                introdução dos produtos para <strong>novos clientes</strong>.
+                Perfeita para apresentar sua marca/negócio.
               </p>
             </div>
 
             <!--SEÇÃO DE LOJA-->
             <div class="especialidades-box">
-              <i class="bi bi-tags-fill"></i>
+              <i class="bi bi-tags-fill" style="color: rgb(255, 213, 0)"></i>
               <h3>Lojas on-line</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-                veniam magnam odio voluptates ipsum nostrum voluptatibus ipsa
-                voluptatem, doloremque, impedit eveniet obcaecati? Ad fugit quia
-                itaque doloremque, at ratione illo.
+                Lojas intuitivas e rápidas, com catálogos simplificados e
+                excelentes para a experiência de usuário. Seus clientes precisam
+                de <strong>comodidade e praticidade</strong> na hora de comprar.
               </p>
             </div>
 
@@ -173,13 +181,12 @@
             SEÇÃO DE BLOG
             -->
             <div class="especialidades-box">
-              <i class="bi bi-wordpress"></i>
+              <i class="bi bi-wordpress" style="color: rgb(255, 213, 0)"></i>
               <h3>Blog</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-                veniam magnam odio voluptates ipsum nostrum voluptatibus ipsa
-                voluptatem, doloremque, impedit eveniet obcaecati? Ad fugit quia
-                itaque doloremque, at ratione illo.
+                Comunicação direta e detalhada, excelente se você quiser dar
+                <strong>exclusividade</strong> para sua marca/negócio com uma
+                presença digital diferenciada. Crie conexões com seus clientes.
               </p>
             </div>
           </div>
@@ -188,5 +195,6 @@
 
       <h1 style="color: #fff; margin: 30px">SITE EM DESENVOLVIMENTO!</h1>
     </main>
+    <script src="/javascript/script.js"></script>
   </body>
 </html>

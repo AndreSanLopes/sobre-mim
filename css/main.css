@@ -21,7 +21,7 @@ TÍTULO CALL TO ACTION
 /*
 CORPO PRINCIPAL: MAIN
 */
-.txt-home{
+.txt-home {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -31,7 +31,7 @@ CORPO PRINCIPAL: MAIN
 /*
 SEÇÃO DE BOTÕES
 */
-.btn-main{
+.btn-main {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -50,7 +50,7 @@ SEÇÃO DE BOTÕES
 }
 
 /*
-BOTÃO CALL TO ACTION
+IMAGEM CALL TO ACTION
 */
 
 .home .img-home img {
