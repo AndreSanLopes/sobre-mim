@@ -19,6 +19,7 @@ section.sobre .flex {
 }
 
 .img-sobre img {
+  box-shadow: 30px 12px 0px 5px #ffd500;
   border-radius: 40px;
 }
 
@@ -26,7 +27,6 @@ section.sobre .flex {
   padding: 5%;
   border-radius: 20px;
   color: white;
-  box-shadow: 0 0 8px #ffffff6e;
 }
 
 .sobre .txt-sobre h2 {
