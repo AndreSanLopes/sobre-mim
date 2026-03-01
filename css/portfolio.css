@@ -4,7 +4,7 @@ section.portfolio {
 }
 
 section.portfolio .flex {
-    margin-top: 60px;
+  margin-top: 60px;
   justify-content: space-around;
 }
 
@@ -43,7 +43,7 @@ DIV que adiciona uma camada de sobreposição transparente, permitindo um efeito
   font-family: "JetBrains Mono";
   color: #fff;
   opacity: 0;
-  background-color: #0000004b;
+  background-color: #00000060;
   transition: 0.5s;
 }
 

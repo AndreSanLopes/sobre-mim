@@ -21,6 +21,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
   font-size: 64px;
+  transition: 0.5s;
 }
 
 .especialidades .especialidades-box h3 {
