@@ -1,0 +1,13 @@
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 50px 15px #ffffff24;
+}
+
+
+
+/*imagens dos projetos*/
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #ffd500;
+}

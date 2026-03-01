@@ -7,10 +7,10 @@ section.sobre .txt-sobre .socialAbout .btn-github {
   height: 50px;
 }
 
-.socialAbout{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.socialAbout {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 section.sobre .flex {
