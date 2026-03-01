@@ -59,8 +59,14 @@ ScrollReveal().reveal("#titleCall", {
   distance: "20%",
 });
 
-ScrollReveal().reveal(".especialidades-box",{
+ScrollReveal().reveal(".especialidades-box", {
   origin: "bottom",
   duration: 1500,
   distance: "20%", 
+});
+
+ScrollReveal().reveal(".img-port", {
+  origin: "left",
+  duration: 1500,
+  distance: "20%",  
 });
