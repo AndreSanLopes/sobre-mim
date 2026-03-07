@@ -33,6 +33,7 @@ section.sobre .flex {
   margin-bottom: 20px;
   line-height: 48px;
   font-size: 38px;
+  text-align: left;
 }
 
 .sobre .txt-sobre h2 span {

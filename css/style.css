@@ -106,3 +106,81 @@ BOTÃO DE CONTATO
   color: #fff;
   transform: scale(1.05);
 }
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 1020px) {
+  /*CLASSES GERAIS*/
+  .flex {
+    flex-direction: column;
+  }
+
+  .titleBase {
+    text-align: center;
+  }
+
+  .titleCall {
+    line-height: 40px;
+  }
+  /*HEADER*/
+  /*esconde menu e botão do header*/
+  header .menu-desktop {
+    display: none;
+  }
+
+  header .btn-contato {
+    display: none;
+  }
+
+  /*MAIN*/
+  /*call to action*/
+  .img-home {
+    display: none;
+  }
+
+  section.home {
+    padding: 35px 8%;
+  }
+  .btn-main{
+    justify-content: center;
+  }
+  .txt-home p {
+    font-size: 19px;
+  }
+  /*especialidades*/
+  section.especialidades {
+    padding: 40px 4%;
+  }
+  .especialidades .titleBase {
+    padding-bottom: 60px;
+  }
+  #txtBox {
+    font-size: 19px;
+  }
+  /*seção sobre*/
+  .sobre .txt-sobre h2 {
+    margin-bottom: 60px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .sobre .txt-sobre p {
+    font-size: 19px;
+    text-align: left;
+    padding-bottom: 35px;
+  }
+  .socialAbout {
+    justify-content: center;
+  }
+  /*seção portfólio*/
+  section.portfolio {
+    padding: 80px 2%;
+  }
+  #bgWork {
+    padding-bottom: 30px;
+  }
+  /**/
+  #front_p{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
