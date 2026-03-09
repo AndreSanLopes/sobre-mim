@@ -123,6 +123,10 @@ BOTÃO DE CONTATO
   }
   /*HEADER*/
   /*esconde menu e botão do header*/
+  .btn-abrir-menu {
+    display: block;
+  } /*MOSTRA MENU HAMBÚRGUER*/
+
   header .menu-desktop {
     display: none;
   }

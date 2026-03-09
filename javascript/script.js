@@ -21,6 +21,38 @@ function espIcon(event) {
   }
 }
 
+/*
+MENU MOBILE - SCRIPTS
+*/
+let btnMenu = document.querySelector("#abrir_menu"); //menu hambúrguer
+let menuMob = document.querySelector("#menu_mobile");//menu mobile
+let transparencia = document.querySelector("#overlay_menu");//overlay transparente do menu mobile
+
+//ARROW FUNCTION ACIONADO AO RECEBER EVENTO CLICK
+/*
+função: ao usuário clicar, o menu mobile e o overlay aparecem
+*/
+btnMenu.addEventListener("click", () => {
+  //ADICIONA UMA CLASSE AO ITEM
+  menuMob.classList.add('show-menu');
+});
+
+/*
+função: ao usuário clicar, o menu mobile desaparece junto com o overlay
+*/
+menuMob.addEventListener("click", () => {
+  //REMOVE UMA CLASSE DO ITEM
+  menuMob.classList.remove('show-menu');
+});
+
+/*
+função: ao usuário clicar, o menu mobile desaparece junto com o próprio overlay
+*/
+transparencia.addEventListener("click", () => {
+  //REMOVE UMA CLASSE DO ITEM
+  menuMob.classList.remove('show-menu');
+});
+
 /*função carregadda junto com a página*/
 window.onload = function () {
   //pega TODOS os botões da div: .btn-github
